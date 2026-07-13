@@ -126,14 +126,32 @@ Please only use these commands for working stand-alone on your own computer with
     $ make clustertasks
     ```
 
-You can now perform Tekton development locally, just like in the Cloud IDE lab environment.
+Step 1: Create a GitHub Kanban board in your repository
+In this exercise, you will set up a kanban board using GitHub Projects for the created repository.
 
-## Author
+Set up your GitHub kanban board by incorporating the seven columns give below:
+New issues
+Icebox
+Product backlog
+Sprint backlog
+In progress
+Review/QA
+Done
 
-[John Rofrano](https://www.coursera.org/instructor/johnrofrano), Senior Technical Staff Member, DevOps Champion, @ IBM Research, and Instructor @ Coursera
+Create a user story template
+In this exercise, you will create a user story template that will help you write well-formatted user stories for your GitHub kanban board.
 
-## License
-
-Licensed under the Apache License. See [LICENSE](LICENSE)
-
-## <h3 align="center"> © IBM Corporation 2022. All rights reserved. <h3/>
+Steps to be performed
+Create a template for your project’s GitHub repository. Ensure the template includes the components listed below. You may want to copy, paste, and then edit this text because it also contains the correct markdown syntax you will need for the template.
+**As a** [role]  
+**I need** [function]  
+**So that** [benefit]  
+      
+### Details and Assumptions
+    * [document what you know]      
+### Acceptance Criteria     
+    gherkin 
+    Given [some context]
+    When [certain action is taken]
+    Then [the outcome of action is observed]
+Ensure that you have a new folder in your repository with name .github/ISSUE_TEMPLATE. This folder will contain your new user story template named user-story.md.
